@@ -384,14 +384,9 @@
 
    
    $('#checkin_date, #checkout_date, #start_date, #return_date').datepicker({
-	  'format': 'm/d/yyyy',
+	  'format': 'yyyy-mm-dd',
 	  'autoclose': true
 	});
-	// $('#checkout_date').datepicker({
-	//   'format': 'm/d/yyyy',
-	//   'autoclose': true
-	// });
-	// $('#appointment_time').timepicker();
 
 
 
